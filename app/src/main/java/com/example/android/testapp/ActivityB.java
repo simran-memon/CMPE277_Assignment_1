@@ -1,11 +1,6 @@
 package com.example.android.testapp;
 import androidx.appcompat.app.AppCompatActivity;
-//import android.app.Activity;
-//import android.os.Bundle;
-//import android.util.Log;
-
 import android.os.Bundle;
-//import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -15,8 +10,6 @@ public class ActivityB extends AppCompatActivity {
 
     int counter = MainActivity.getCounterValue();
     private Button buttonB;
-
-//public class AnotherActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,14 +23,13 @@ public class ActivityB extends AppCompatActivity {
                 finish();
             }
         });
-//        Log.e("onCreate ------ ", "AnotherActivity: onCreate()");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
         Log.d("tag", "Activity B: Started");
-//        Log.e("onStart ------ ", "AnotherActivity: onStart()");
+
     }
 
 
@@ -45,7 +37,7 @@ public class ActivityB extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.d("tag", "Activity B: Resumed");
-//        Log.e("onResume ------ ", "AnotherActivity: onResume()");
+
     }
 
 
@@ -53,7 +45,6 @@ public class ActivityB extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         Log.d("tag", "Activity B: Paused");
-//        Log.e("onPause ------ ", "AnotherActivity: onPause()");
     }
 
     @Override
@@ -68,7 +59,7 @@ public class ActivityB extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         Log.d("tag", "Activity B: Stopped");
-//        Log.e("onStop ------ ", "AnotherActivity: onStop()");
+
     }
 
 
@@ -76,15 +67,6 @@ public class ActivityB extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d("tag", "Activity B: Destroyed");
-//        Log.e("onDestroy ------ ", "AnotherActivity: onDestroy()");
+
     }
 }
-
-//    @Override
-//    protected void onRestart() {
-//        super.onRestart();
-//        Log.e("onRestart ------ ", "AnotherActivity: onRestart()");
-//
-//    }
-
-
