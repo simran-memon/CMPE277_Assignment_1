@@ -3,22 +3,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.PersistableBundle;
-//import android.support.v7.app.AlertDialog;
 //import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AlertDialog;
 
-
-//import android.content.Intent;
-//import android.os.Bundle;
-//import androidx.appcompat.app.AppCompatActivity;
-//import android.util.Log;
-//import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -109,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Log.d("tag", "Activity A: Started");
-//        Log.e("onStart ------ ","MainActivity: onStart()");
     }
 
 
@@ -118,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         textView2.setText("Restart Counter: " + String.valueOf(counter));
         Log.d("tag", "Activity A: Resumed");
-//        Log.e("onResume ------ ","MainActivity: onResume()");
     }
 
 
@@ -126,7 +116,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         Log.d("tag", "Activity A: Paused");
-//        Log.e("onPause ------ ","MainActivity: onPause()");
     }
 
     @Override
@@ -141,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         Log.d("tag", "Activity A: Stopped");
-//        Log.e("onStop ------ ","MainActivity: onStop()");
     }
 
 
@@ -149,20 +137,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d("tag", "Activity A: Destroyed");
-//        Log.e("onDestroy ------ ","MainActivity: onDestroy()");
     }
 
 }
 
-//    @Override
-//    protected void onRestart() {
-//        super.onRestart();
-//        Log.e("onRestart ------ ","MainActivity: onRestart()");
-//
-//    }
 
-//    public void switchActivity(View view){
-//        Intent intent = new Intent(MainActivity.this, AnotherActivity.class);
-//        startActivity(intent);
-//    }
-//}
