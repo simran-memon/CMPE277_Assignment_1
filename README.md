@@ -1,13 +1,14 @@
-ASSIGNMENT_1:  ACTIVITY LIFE CYCLE
+**ASSIGNMENT_1:**  **ACTIVITY LIFE CYCLE**
 
-Name: Simran Tanvir Memon
-Student Id: 015950610
+**Name**: **Simran Tanvir Memon**
+**Student Id**: **015950610**
 
-Objective: The purpose of the app is to understand the activity life cycle and the role of Android OS plays in handling life cycle events.
+**Objective**: The purpose of the app is to understand the activity life cycle and the role of Android OS plays in handling life cycle events.
 
-GitHub: https://github.com/simran-memon/CMPE277_Assignment_1/tree/master
+**GitHub**: https://github.com/simran-memon/CMPE277_Assignment_1/tree/master
 
-Implementation: The callback methods while the App was running are as follows:
+**Implementation**: The callback methods while the App was running are as follows:
+
 1. Home page of the Android App “TestApp”. Since we have just launched the application the restart counter is 0.
 
 ![alt text](https://github.com/simran-memon/CMPE277_Assignment_1/blob/master/app/1645143559382.jpg?raw=true)       ![alt text](https://github.com/simran-memon/CMPE277_Assignment_1/blob/master/app/sc_1.png?raw=true)
